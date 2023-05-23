@@ -1,6 +1,6 @@
 # css-temas-2023
 
-Com o CSS, eles irão conseguir:
+Com o CSS, os clientes da Istpay poderão:
 
 - Alterar a cor de fundo do conteúdo principal (entre o cabeçalho e o rodapé);
 - Alterar a cor do cabeçalho;
