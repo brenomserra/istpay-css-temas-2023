@@ -1,0 +1,48 @@
+Alterações de tags para o CSS - Inclusão de "ids" no arquivo -layout.css-
+Arquivos: (checkout.tailwind.blade.php) | (checkout_onepage.blade.php)
+
+/* Cor de fundo do conteúdo principal (checkout.tailwind.blade.php) */
+/* body {
+  background-color: black !important;
+} */
+
+/* Cabeçalho - Linhas: 58 (checkout.tailwind.blade.php) 
+                       61 (checkout_onepage.blade.php) */
+#cabecalho {
+  background-color: black;
+}
+
+/* Logotipo - Linhas: 59 (checkout.tailwind.blade.php) 
+                      62 (checkout_onepage.blade.php) */
+#logotipo {
+  display: flex; 
+  justify-content: center;
+}
+
+/* "Tem cupom?" - Linhas: 770 e 771 (checkout.tailwind.blade.php) 
+                          859 e 860 (checkout_onepage.blade.php) */
+/* #ocultar__conteudo {
+  display: none;
+} */
+
+/* Linha <hr> acima dos ícones - Linha: 953 (checkout.tailwind.blade.php) */
+#linha {
+  border: 1px solid;
+  color: #ff651e;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+
+/* Identifique-se, Entrega, Pagamento, Resumo - Linhas: 110, 269, 435, 766 (checkout.tailwind.blade.php) 
+                                                        112, 270, 434, 855 (checkout_onepage.blade.php) */
+#titulos {
+  color: #ff651e !important;
+}
+
+/* E-mail, Celular / Whatsapp, Nome completo, CPF, CEP, Endereço, Número, Bairro, Complemento  - Linhas: 117, 142, 167, 192, 276, 304, 330, 355, 362 (checkout.tailwind.blade.php)
+                                                                                                         119, 143, 168, 193, 277, 305, 331, 356, 363 (checkout_onepage.blade.php) */
+#subtitulos {
+  color: black !important;
+}
