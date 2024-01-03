@@ -12,3 +12,4 @@ Com o CSS, os clientes da Istpay poderão:
 
 Para funcionar lá na aba de aparência do checkout, os desenvolvedores precisam validar as alterações que fiz no código (no meu ambiente de produção), 
 e se aprovado, eles precisam fazer a fusão com o ambiente de homologação. E depois de produção após os testes.
+TESTE
